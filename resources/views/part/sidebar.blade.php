@@ -3,7 +3,7 @@
         <div class="sidebar-brand-icon">
             <img src="{{ asset('/img/logo.png') }}">
         </div>
-        <div class="sidebar-brand-text mx-3">Perpustakaan Yano</div>
+        <div class="sidebar-brand-text mx-3">Perpustakaan Michael Ryanno 220101010059</div>
     </a>
     <hr class="sidebar-divider my-0">
     <li class="nav-item">
