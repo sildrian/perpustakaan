@@ -35,7 +35,7 @@ class KategoriController extends Controller
         $iduser = Auth::id();
         $profile = Profile::where('users_id',$iduser)->first();
         $kategori = Kategori::all();
-        return view('Kategori.tambah',['kategori' =>$kategori,'profile'=>$profile]);
+        return view('kategori.tambah',['kategori' =>$kategori,'profile'=>$profile]);
     }
 
     /**
